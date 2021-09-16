@@ -1,0 +1,42 @@
+body{
+    background-color: rgba(2, 7, 49, 0.884);
+}
+
+#main_title{
+    color:white;
+    font-size: 24px;
+}
+
+button{
+   font-size: larger;
+   padding: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+   background-color: aliceblue;
+   margin: 2px;
+   box-shadow: 20px;
+   width: 100%;
+}
+
+button:hover{
+    background-color: grey;
+    transform: scale(1.2);
+}
+
+input{
+    font-size: larger;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: aliceblue;
+    margin: 2px;
+    box-shadow: 20px;
+    width: 100%;
+}
+
+table{
+    table-layout: auto;
+    border-color: white;
+    border-width: 1px;
+    border-spacing: 1px;
+}

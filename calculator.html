@@ -1,0 +1,86 @@
+<!DOCTYPE HTML5>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcstyle.css">
+    <script src="calculatorscript.js"></script>
+</head>
+
+   <center>
+      <div id="elements">
+       <br><br>
+      <div id="main_title">  
+      Calculator!!
+      </div>
+      <br>
+      
+      <table border="1">
+        <tr>
+            <td colspan=3>
+              <input type=text id="result">
+            </td>
+            <td>
+              <button onclick="del()" value=10>CE</button>
+            </td>  
+        </tr>
+        
+        <tr>
+            <td>
+                <button onclick="disp('1')" value=1>1</button>
+            </td>
+            <td>
+              <button onclick="disp('2')" value=2>2</button>
+            </td>
+            <td>
+              <button onclick="disp('3')" value=3>3</button>
+            </td>
+            <td>
+              <button onclick="disp('+')" value='+'>+</button>
+            </td>
+        </tr>
+
+        <tr>
+          <td>
+              <button onclick="disp('4')" value=4>4</button>
+          </td>
+          <td>
+            <button onclick="disp('5')" value=5>5</button>
+          </td>
+          <td>
+            <button onclick="disp('6')" value=6>6</button>
+          </td>
+          <td>
+            <button onclick="disp('-')" value='-'>-</button>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+              <button onclick="disp('7')" value=7>7</button>
+          </td>
+          <td>
+            <button onclick="disp('8')" value=8>8</button>
+          </td>
+          <td>
+            <button onclick="disp('9')" value=9>9</button>
+          </td>
+          <td>
+            <button onclick="disp('*')" value='*'>*</button>
+          </td>  
+        </tr>
+
+        <tr>
+            <td colspan=2> 
+              <button onclick="disp('0')" value=0>0</button>
+            </td>
+            <td>
+              <button onclick="calc()" value='='>=</button>
+            </td>
+            <td>
+              <button onclick="disp('/')" value='/'>/</button>
+            </td>
+        </tr>
+    </table>
+   </center>
+
+</html>
